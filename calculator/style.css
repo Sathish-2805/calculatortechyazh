@@ -1,0 +1,39 @@
+body{
+    background-color: darkgrey;
+}
+
+
+.calculator{
+    width: 250px;
+    border-radius: 8px;
+    background-color: darkgray;
+    padding: 10px;
+    box-shadow: 4px 4px 10px;                                                                                                                                                                      
+}
+.dis{
+    height: 40px;
+    font-size: 24px;
+    text-align: left;
+    padding: 4px;
+    background-color: aliceblue;
+    border: 1px ;
+    margin-bottom: 10px;
+}
+
+/*button row*/
+.btn{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    gap: 2px;
+}   
+/*button{
+    height: 20px;
+    width: 70px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}*/
+
+
+
